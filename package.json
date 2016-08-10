@@ -1,5 +1,5 @@
 {
-  "name": "Angular2Template",
+  "name": "todolist-angular2",
   "version": "1.0.0",
   "scripts": {
     "start": "npm run tsc:w",
@@ -34,5 +34,8 @@
     "lite-server": "^2.1.0",
     "typescript": "^1.8.2",
     "typings": "^0.6.8"
-  }
+  },
+  "main": "gulpfile.js",
+  "author": "",
+  "description": ""
 }
