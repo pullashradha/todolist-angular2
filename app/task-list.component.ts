@@ -1,12 +1,13 @@
 import {Component, EventEmitter} from "angular2/core";
 import {TaskComponent} from "./task.component";
 import {Task} from "./task.model";
+import {EditTaskDetailsComponent} from "./edit-task-details.component";
 
 @Component ({
   selector: "task-list",
   inputs: ["taskList"],
   outputs: ["onTaskSelect"],
-  directives: [TaskComponent],
+  directives: [TaskComponent, EditTaskDetailsComponent],
   templateUrl: "app/task-list.component.html"
 })
 
