@@ -1,0 +1,9 @@
+.DS_Store
+.git/
+node_modules/
+npm-debug.log
+bower_components/
+build/
+typings/
+app/*.js
+app/*.js.map
