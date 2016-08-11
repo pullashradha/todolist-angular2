@@ -6,10 +6,12 @@ import {Task} from "./task.model";
   selector: "my-app",
   directives: [TaskListComponent],
   template:
-    `<div class="container">
+    `
+    <div class="container">
       <h1>To-Do List</h1>
       <task-list [taskList]="tasks" (onTaskSelect)="taskWasSelected($event)"></task-list>
-    </div>`
+    </div>
+    `
 })
 
 export class AppComponent {
